@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/nikolamandic/mirror/config'
+let g:netrw_dirhist_2='/Users/nikolamandic/mirror/app/controllers'
+let g:netrw_dirhist_3='/Users/nikolamandic/mm2/spec/factories'
+let g:netrw_dirhist_4='/Users/nikolamandic/mold2/db'
+let g:netrw_dirhist_5='/Users/nikolamandic/puppet/dist/rpi/files'
+let g:netrw_dirhist_6='/Users/nikolamandic/mold2/config/deploy'
