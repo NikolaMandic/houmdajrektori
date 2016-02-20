@@ -28,12 +28,9 @@
 [submodule ".vim/bundle/vim-better-whitespace"]
 	path = .vim/bundle/vim-better-whitespace
 	url = https://github.com/ntpeters/vim-better-whitespace
-[submodule "/home/user/oh-my-zsh"]
-	path = /home/user/oh-my-zsh
-	url = https://github.com/robbyrussell/oh-my-zsh
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh
 [submodule "vim-ctrlspace"]
-	path = vim-ctrlspace
+	path = .vim/bundle/vim-better-whitespace/vim-ctrlspace
 	url = https://github.com/vim-ctrlspace/vim-ctrlspace
