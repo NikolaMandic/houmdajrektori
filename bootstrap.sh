@@ -10,5 +10,5 @@ cd .vim/bundle/vimproc
 make
 cd ~
 sudo rm -r .oh-my-zsh
-source oh-my-zsh/tools/install.sh
+. oh-my-zsh/tools/install.sh
 chsh -s "$(which zsh)" "${USER}"
