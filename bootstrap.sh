@@ -8,3 +8,4 @@ git submodule update --init --recursive
 cd .vim/bundle/vimproc
 make
 cd ~
+source .ohmyzsh/tools/install.sh
