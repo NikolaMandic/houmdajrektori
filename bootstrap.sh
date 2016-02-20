@@ -9,5 +9,6 @@ git submodule update --init --recursive
 cd .vim/bundle/vimproc
 make
 cd ~
+sudo rm -r .oh-my-zsh
 source oh-my-zsh/tools/install.sh
 sudo chsh -s "$(command -v zsh)" "${USER}"
