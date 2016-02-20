@@ -11,4 +11,4 @@ make
 cd ~
 sudo rm -r .oh-my-zsh
 source oh-my-zsh/tools/install.sh
-chsh -s "$(command -v zsh)" "${USER}"
+chsh -s "$(which zsh)" "${USER}"
