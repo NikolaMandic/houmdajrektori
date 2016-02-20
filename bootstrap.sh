@@ -2,6 +2,7 @@ cd ~
 sudo apt-get install -y git build-essential zsh
 git init
 git remote add origin https://github.com/NikolaMandic/houmdajrektori.git
+git remote update
 git fetch origin
 git checkout master
 git submodule update --init --recursive
