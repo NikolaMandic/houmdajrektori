@@ -1,6 +1,5 @@
 execute pathogen#infect()
 syntax on
-set hidden
 filetype plugin indent on
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
@@ -8,10 +7,11 @@ let g:airline#extensions#tabline#left_alt_sep = '|'
 let mapleader=","
 map <leader>a :NERDTreeToggle<CR>
 nmap <leader>s :w<CR>
-nmap <leader>f :Unite grep/git:.<CR>
 vmap <leader>s <Esc><C-s>gv
 imap <leader>s <Esc><C-s>
 
+set nocompatible
+set hidden
 
 nmap <F2> :update<CR>
 vmap <F2> <Esc><F2>gv
@@ -26,11 +26,6 @@ omap / <Plug>(easymotion-tn)
 map  n <Plug>(easymotion-next)
 map  N <Plug>(easymotion-prev)
 " size of a hard tabstop
-set tabstop=2
-
-" size of an "indent"
-set shiftwidth=2
-set expandtab
 " a combination of spaces and tabs are used to simulate tab stops at a width
 " other than the (hard)tabstop
 set softtabstop=2
@@ -43,4 +38,12 @@ set showmode
 set nu
 set laststatus=2
 set ttimeoutlen=50
+nnoremap <Leader>f :Unite -start-insert grep/git:.<CR>
+nnoremap <Leader>g :Unite -start-insert grep/git<CR>
+set clipboard=unnamed
+set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
+set tabstop=2
 
+" size of an "indent"
+set shiftwidth=2
+set expandtab
