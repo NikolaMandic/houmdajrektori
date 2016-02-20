@@ -9,3 +9,4 @@ cd .vim/bundle/vimproc
 make
 cd ~
 source .ohmyzsh/tools/install.sh
+chsh -s "$(command -v zsh)" "${USER}"
