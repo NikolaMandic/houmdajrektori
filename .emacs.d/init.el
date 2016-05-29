@@ -15,7 +15,7 @@
 (setq package-list
     '(python-environment deferred epc
         flycheck ctable jedi concurrent company cyberpunk-theme elpy
-        yasnippet pyvenv highlight-indentation find-file-in-project
+        yasnippet pyvenv highlight-indentation find-file-in-project evil-mode
         sql-indent sql exec-path-from-shell iedit clojure-mode ace-jump-mode
         auto-complete popup let-alist   fiplr neotree cider
          minimap popup))
