@@ -32,5 +32,5 @@
 	path = oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh
 [submodule "vim-ctrlspace"]
-	path = .vim/bundle/vim-better-ctrlspace/vim-ctrlspace
+	path = .vim/bundle/vim-ctrlspace/vim-ctrlspace
 	url = https://github.com/vim-ctrlspace/vim-ctrlspace
